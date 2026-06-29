@@ -1,8 +1,19 @@
 # Automation
 
-**Latest release:** [v0.1.3](https://github.com/the-ihsan/dist/releases/tag/automation-v0.1.3)
+**Latest release:** [v0.1.4](https://github.com/the-ihsan/dist/releases/tag/automation-v0.1.4)
 
 ## Releases
+
+### [v0.1.4](https://github.com/the-ihsan/dist/releases/tag/automation-v0.1.4) — 2026-06-29
+
+| Asset | Platform | Size |
+| --- | --- | --- |
+| [Automation-0.1.4-1.x86_64.rpm](https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation-0.1.4-1.x86_64.rpm) | Linux (x86_64) | 82.3 MB |
+| [Automation_0.1.4_aarch64.dmg](https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_aarch64.dmg) | macOS (aarch64) | 63.6 MB |
+| [Automation_0.1.4_amd64.AppImage](https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_amd64.AppImage) | Linux (x86_64) | 156.0 MB |
+| [Automation_0.1.4_amd64.deb](https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_amd64.deb) | Linux (x86_64) | 82.3 MB |
+| [Automation_0.1.4_x64-setup.exe](https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_x64-setup.exe) | Windows (x86_64) | 64.6 MB |
+| [Automation_0.1.4_x64_en-US.msi](https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_x64_en-US.msi) | Windows (x86_64) | 66.1 MB |
 
 ### [v0.1.3](https://github.com/the-ihsan/dist/releases/tag/automation-v0.1.3) — 2026-06-29
 

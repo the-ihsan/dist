@@ -1,9 +1,65 @@
 {
   "name": "automation",
   "product_name": "Automation",
-  "latest": "v0.1.3",
-  "updated_at": "2026-06-29T08:39:59Z",
+  "latest": "v0.1.4",
+  "updated_at": "2026-06-29T13:48:17Z",
   "releases": [
+    {
+      "version": "v0.1.4",
+      "tag": "automation-v0.1.4",
+      "release_url": "https://github.com/the-ihsan/dist/releases/tag/automation-v0.1.4",
+      "published_at": "2026-06-29T13:48:17Z",
+      "assets": [
+        {
+          "filename": "Automation-0.1.4-1.x86_64.rpm",
+          "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation-0.1.4-1.x86_64.rpm",
+          "size": 86286542,
+          "platform": "linux",
+          "arch": "x86_64",
+          "kind": "rpm"
+        },
+        {
+          "filename": "Automation_0.1.4_aarch64.dmg",
+          "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_aarch64.dmg",
+          "size": 66679934,
+          "platform": "macos",
+          "arch": "aarch64",
+          "kind": "dmg"
+        },
+        {
+          "filename": "Automation_0.1.4_amd64.AppImage",
+          "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_amd64.AppImage",
+          "size": 163543544,
+          "platform": "linux",
+          "arch": "x86_64",
+          "kind": "AppImage"
+        },
+        {
+          "filename": "Automation_0.1.4_amd64.deb",
+          "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_amd64.deb",
+          "size": 86284696,
+          "platform": "linux",
+          "arch": "x86_64",
+          "kind": "deb"
+        },
+        {
+          "filename": "Automation_0.1.4_x64-setup.exe",
+          "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_x64-setup.exe",
+          "size": 67784071,
+          "platform": "windows",
+          "arch": "x86_64",
+          "kind": "setup"
+        },
+        {
+          "filename": "Automation_0.1.4_x64_en-US.msi",
+          "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_x64_en-US.msi",
+          "size": 69287936,
+          "platform": "windows",
+          "arch": "x86_64",
+          "kind": "msi"
+        }
+      ]
+    },
     {
       "version": "v0.1.3",
       "tag": "automation-v0.1.3",
