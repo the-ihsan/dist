@@ -1,0 +1,37 @@
+{
+  "version": "v0.1.4",
+  "tag": "automation-v0.1.4",
+  "release_url": "https://github.com/the-ihsan/dist/releases/tag/automation-v0.1.4",
+  "assets": [
+    {
+      "filename": "Automation_0.1.4_aarch64.dmg",
+      "size": 66679934,
+      "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_aarch64.dmg"
+    },
+    {
+      "filename": "Automation_0.1.4_amd64.AppImage",
+      "size": 163543544,
+      "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_amd64.AppImage"
+    },
+    {
+      "filename": "Automation_0.1.4_amd64.deb",
+      "size": 86284696,
+      "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_amd64.deb"
+    },
+    {
+      "filename": "Automation_0.1.4_x64_en-US.msi",
+      "size": 69287936,
+      "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_x64_en-US.msi"
+    },
+    {
+      "filename": "Automation_0.1.4_x64-setup.exe",
+      "size": 67784071,
+      "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation_0.1.4_x64-setup.exe"
+    },
+    {
+      "filename": "Automation-0.1.4-1.x86_64.rpm",
+      "size": 86286542,
+      "url": "https://github.com/the-ihsan/dist/releases/download/automation-v0.1.4/Automation-0.1.4-1.x86_64.rpm"
+    }
+  ]
+}
