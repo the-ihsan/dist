@@ -1,0 +1,40 @@
+name: Refresh index
+
+# Private app repos only push built files into <app>/<version>/. This repo owns
+# the bookkeeping: on every push, regenerate all manifests/readmes from the
+# files on disk and commit the result.
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths-ignore:
+      - manifest.json
+      - readme.md
+      - '*/manifest.json'
+      - '*/readme.md'
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # full history so published_at can come from git log
+
+      - name: Regenerate manifests and readmes
+        run: python3 scripts/refresh-index.py
+
+      - name: Commit index updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json readme.md '*/manifest.json' '*/readme.md'
+          if git diff --cached --quiet; then
+            echo "Index already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh release index"
+          git push
